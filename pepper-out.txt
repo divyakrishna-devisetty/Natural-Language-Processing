@@ -1,0 +1,69 @@
+
+University of Central Florida
+CAP6640 Spring 2018 - Dr. Glinos 
+
+Text Similarity Analysis by <your_name>
+
+Source file: pepper-src.txt
+Target file: pepper-tgt.txt
+
+Raw Tokens:
+     Source > loris ipsem Peter picked one peck's worth of pickled peppers. tempus fugit 
+     Target > pachabel Peter Piper picked a peck worth of peppers. carpe diem 
+
+Normalized Tokens:
+     Source > loris ipsem peter picked one peck 's worth of pickled peppers . tempus fugit 
+     Target > pachabel peter piper picked a peck worth of peppers . carpe diem 
+
+Edit Distance Table:
+
+               0    1    2    3    4    5    6    7    8    9   10   11   12 
+               #   pac  pet  pip  pic    a  pec  wor   of  pep    .  car  die
+   0     #     0    0    0    0    0    0    0    0    0    0    0    0    0
+   1    lor    0    0    0    0    0    0    0    0    0    0    0    0    0
+   2    ips    0    0    0    0    0    0    0    0    0    0    0    0    0
+   3    pet    0    0    2    1    0    0    0    0    0    0    0    0    0
+   4    pic    0    0    1    1    3    2    1    0    0    0    0    0    0
+   5    one    0    0    0    0    2    2    1    0    0    0    0    0    0
+   6    pec    0    0    0    0    1    1    4    3    2    1    0    0    0
+   7     's    0    0    0    0    0    0    3    3    2    1    0    0    0
+   8    wor    0    0    0    0    0    0    2    5    4    3    2    1    0
+   9     of    0    0    0    0    0    0    1    4    7    6    5    4    3
+  10    pic    0    0    0    0    0    0    0    3    6    6    5    4    3
+  11    pep    0    0    0    0    0    0    0    2    5    8    7    6    5
+  12      .    0    0    0    0    0    0    0    1    4    7   10    9    8
+  13    tem    0    0    0    0    0    0    0    0    3    6    9    9    8
+  14    fug    0    0    0    0    0    0    0    0    2    5    8    8    8
+
+Backtrace Table:
+
+               0    1    2    3    4    5    6    7    8    9   10   11   12 
+               #   pac  pet  pip  pic    a  pec  wor   of  pep    .  car  die
+   0     #                                                                  
+   1    lor                                                                 
+   2    ips                                                                 
+   3    pet             DI   LT                                             
+   4    pic             UP   DI   DI   LT   LT                              
+   5    one                       UP   DI   LT                              
+   6    pec                       UP   UP   DI   LT   LT   LT               
+   7     's                                 UP   DI   LT   LT               
+   8    wor                                 UP   DI   LT   LT   LT   LT     
+   9     of                                 UP   UP   DI   LT   LT   LT   LT
+  10    pic                                      UP   UP   DI   LT   LT   LT
+  11    pep                                      UP   UP   DI   LT   LT   LT
+  12      .                                      UP   UP   UP   DI   LT   LT
+  13    tem                                           UP   UP   UP   DI   LT
+  14    fug                                           UP   UP   UP   UP   DI
+
+Maximum value in distance table: 10
+
+Maxima:
+     [ 12, 10 ]
+
+Maximal-similarity alignments:
+
+   Alignment 0 (length 11):
+      Source at    2:  peter   -    picked one  peck  's worth  of pickled peppers .
+      Target at    1:  peter piper  picked  a   peck  -  worth  of    -    peppers .
+      Edit action   :          i            s         d               d             
+

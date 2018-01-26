@@ -1,0 +1,97 @@
+
+University of Central Florida
+CAP6640 Spring 2018 - Dr. Glinos 
+
+Text Similarity Analysis by <your_name>
+
+Source file: gene-src.txt
+Target file: gene-tgt.txt
+
+Raw Tokens:
+     Source > A A A A C C C C T G C G G T T A 
+     Target > T T C C A C G G G A A C C A A T C 
+
+Normalized Tokens:
+     Source > a a a a c c c c t g c g g t t a 
+     Target > t t c c a c g g g a a c c a a t c 
+
+Edit Distance Table:
+
+               0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+               #     t    t    c    c    a    c    g    g    g    a    a    c    c    a    a    t    c
+   0     #     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+   1      a    0    0    0    0    0    2    1    0    0    0    2    2    1    0    2    2    1    0
+   2      a    0    0    0    0    0    2    1    0    0    0    2    4    3    2    2    4    3    2
+   3      a    0    0    0    0    0    2    1    0    0    0    2    4    3    2    4    4    3    2
+   4      a    0    0    0    0    0    2    1    0    0    0    2    4    3    2    4    6    5    4
+   5      c    0    0    0    2    2    1    4    3    2    1    1    3    6    5    4    5    5    7
+   6      c    0    0    0    2    4    3    3    3    2    1    0    2    5    8    7    6    5    7
+   7      c    0    0    0    2    4    3    5    4    3    2    1    1    4    7    7    6    5    7
+   8      c    0    0    0    2    4    3    5    4    3    2    1    0    3    6    6    6    5    7
+   9      t    0    2    2    1    3    3    4    4    3    2    1    0    2    5    5    5    8    7
+  10      g    0    1    1    1    2    2    3    6    6    5    4    3    2    4    4    4    7    7
+  11      c    0    0    0    3    3    2    4    5    5    5    4    3    5    4    3    3    6    9
+  12      g    0    0    0    2    2    2    3    6    7    7    6    5    4    4    3    2    5    8
+  13      g    0    0    0    1    1    1    2    5    8    9    8    7    6    5    4    3    4    7
+  14      t    0    2    2    1    0    0    1    4    7    8    8    7    6    5    4    3    5    6
+  15      t    0    2    4    3    2    1    0    3    6    7    7    7    6    5    4    3    5    5
+  16      a    0    1    3    3    2    4    3    2    5    6    9    9    8    7    7    6    5    4
+
+Backtrace Table:
+
+               0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17 
+               #     t    t    c    c    a    c    g    g    g    a    a    c    c    a    a    t    c
+   0     #                                                                                           
+   1      a                            DI   LT                  DI   DI   LT        DI   DI   LT     
+   2      a                            DI   LT                  DI   DI   LT   LT   DI   DI   LT   LT
+   3      a                            DI   LT                  DI   DI   LT   LT   DI   DI   LT   LT
+   4      a                            DI   LT                  DI   DI   LT   LT   DI   DI   LT   LT
+   5      c                  DI   DI   UP   DI   LT   LT   LT   UP   UP   DI   LT   LT   UP   DI   DI
+   6      c                  DI   DI   LT   UP   DI   LT   LT        UP   UP   DI   LT   LT   LT   DI
+   7      c                  DI   DI   LT   DI   LT   LT   LT   LT   UP   UP   UP   DI   LT   LT   DI
+   8      c                  DI   DI   LT   DI   LT   LT   LT   LT        UP   UP   UP   DI   LT   DI
+   9      t        DI   DI   UP   UP   DI   UP   DI   LT   LT   LT        UP   UP   UP   UP   DI   LT
+  10      g        UP   UP   DI   UP   UP   UP   DI   DI   LT   LT   LT   LT   UP   UP   UP   UP   DI
+  11      c                  DI   DI   LT   DI   UP   UP   DI   LT   LT   DI   LT   UP   UP   UP   DI
+  12      g                  UP   UP   DI   UP   DI   DI   DI   LT   LT   UP   DI   LT   UP   UP   UP
+  13      g                  UP   UP   UP   UP   UP   DI   DI   LT   LT   LT   LT   LT   LT   UP   UP
+  14      t        DI   DI   LT             UP   UP   UP   UP   DI   LT   LT   LT   LT   LT   DI   UP
+  15      t        DI   DI   LT   LT   LT        UP   UP   UP   UP   DI   LT   LT   LT   LT   DI   UP
+  16      a        UP   UP   DI   LT   DI   LT   UP   UP   UP   DI   DI   LT   LT   DI   LT   LT   UP
+
+Maximum value in distance table: 9
+
+Maxima:
+     [ 11, 17 ]
+
+     [ 13, 9 ]
+
+     [ 16, 10 ]
+
+     [ 16, 11 ]
+
+Maximal-similarity alignments:
+
+   Alignment 0 (length 9):
+      Source at    2:  a a c c c c t g c
+      Target at    9:  a a c c a a t - c
+      Edit action   :          s s   d  
+
+
+   Alignment 1 (length 9):
+      Source at    5:  c c - c t g c g g
+      Target at    2:  c c a c - g - g g
+      Edit action   :      i   d   d    
+
+
+   Alignment 2 (length 12):
+      Source at    5:  c c - c t g c g g t t a
+      Target at    2:  c c a c - g - g g - - a
+      Edit action   :      i   d   d     d d  
+
+
+   Alignment 3 (length 12):
+      Source at    5:  c c - c t g c g g t t a
+      Target at    2:  c c a c - g - g g a - a
+      Edit action   :      i   d   d     s d  
+
