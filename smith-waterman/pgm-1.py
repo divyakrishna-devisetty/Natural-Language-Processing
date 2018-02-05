@@ -160,7 +160,7 @@ def create_edit_dist_and_backtrace_table(source_content, target_content):
     rows = len(source_content) + 1
     columns = len(target_content) + 1
     edit_table = [[0 for col in range(columns)] for row in range(rows)]
-    backtrace_table = [[0 for col in range(columns)] for row in range(rows)]
+    backtrace_table = [['' for col in range(columns)] for row in range(rows)]
     for i in range(1, rows):
         for j in range(1, columns):
             similar = source_content[i - 1] == target_content[j - 1]
