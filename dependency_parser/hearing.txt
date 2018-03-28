@@ -1,0 +1,9 @@
+a/DT
+hearing/NN
+is/VBZ
+scheduled/VBN
+today/RB
+on/IN
+the/DT
+issue/NN
+./.

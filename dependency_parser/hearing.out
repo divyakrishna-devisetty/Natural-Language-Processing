@@ -1,0 +1,191 @@
+
+University of Central Florida
+CAP6640 Spring 2018 - Dr. Glinos 
+Dependency Parser by <your_name>
+
+Corpus Statistics:
+
+     # sentences  :  3914
+     # tokens     : 94084
+     # POS tags   :    45
+     # Left-Arcs  : 46061
+     # Right-Arcs : 44109
+     # Root-Arcs  :  3914
+
+
+Left Arc Array Nonzero Counts:
+
+    # : [   CD,  14] 
+    $ : [    $,  20] [   CD, 237] [   IN,   1] [  JJR,   2] [   MD,   3] [   NN, 143] [  NNP,   2] [  NNS,   6] [   RB,   1] [  RBR,   1] [  VBD,   1] [  VBG,   1] [  VBZ,   3] 
+   '' : [   JJ,   1] [  JJR,   1] [   MD,   2] [   NN,  39] [  NNP,   3] [  NNS,  11] [   RB,   1] [   VB,   4] [  VBD, 113] [  VBG,   1] [  VBP,   4] [  VBZ, 128] 
+    , : [    $,  16] [   CC,   1] [   CD,  45] [   DT,   9] [   IN,  55] [   JJ,  31] [  JJS,   4] [   MD, 172] [   NN, 607] [  NNP, 420] [ NNPS,   4] [  NNS, 145] [  POS,   2] [  PRP,   2] [   RB,  24] [   TO,   1] [   VB,  15] [  VBD, 743] [  VBG,   6] [  VBN,   9] [  VBP, 234] [  VBZ, 439] [  WDT,   1] [   WP,   2] [  WRB,   2] 
+-LRB- : [    $,  14] [   CD,  12] [   DT,   2] [   IN,  10] [   JJ,   2] [   MD,   4] [   NN,  11] [  NNP,  35] [  NNS,   8] [  POS,   2] [  VBD,   3] [  VBG,   2] [  VBN,   7] [  VBP,   2] [  VBZ,   4] 
+-RRB- : [   MD,   1] [   NN,   4] [  NNP,   1] [  POS,   1] 
+    . : [   NN,   1] [  NNP,   4] [  VBZ,   2] 
+    : : [    $,   6] [   CD,  10] [   DT,   3] [   IN,  17] [   JJ,   6] [  JJS,   1] [   MD,  21] [   NN,  65] [  NNP,  31] [  NNS,  53] [   RB,   3] [   VB,   4] [  VBD,  30] [  VBG,   2] [  VBN,   3] [  VBP,  16] [  VBZ,  23] [  WDT,   1] [   WP,   3] 
+   CC : [    $,  22] [   CD,  26] [   DT,   5] [   IN,  24] [   JJ,  61] [  JJR,   9] [  JJS,   1] [   MD,  44] [   NN, 438] [  NNP, 271] [ NNPS,  21] [  NNS, 364] [  POS,  17] [  PRP,   2] [   RB,  14] [  RBR,   1] [   VB,  14] [  VBD, 149] [  VBG,   6] [  VBN,   5] [  VBP, 110] [  VBZ, 143] [  WDT,   2] [   WP,   3] [  WRB,   3] 
+   CD : [    $,  20] [   CD, 218] [   DT,   3] [   IN,   6] [   JJ,   2] [   MD,   5] [   NN, 746] [  NNP,  23] [  NNS, 601] [  POS,   5] [  PRP,   1] [   RB,   1] [   TO,   1] [   VB,   2] [  VBD,  14] [  VBP,   3] [  VBZ,   5] 
+   DT : [    $,  16] [   CD,  40] [   IN,   5] [   JJ,  53] [  JJR,   2] [  JJS,  19] [   MD,  19] [   NN,5678] [  NNP, 612] [ NNPS,  32] [  NNS,1126] [  POS, 319] [  PRP,   2] [   RB,   5] [  RBR,   2] [  RBS,   1] [   TO,   1] [  VBD,  21] [  VBG,   9] [  VBN,   3] [  VBP,  14] [  VBZ,  48] 
+   EX : [   MD,   6] [  VBD,  12] [  VBP,  18] [  VBZ,  52] 
+   FW : [   NN,   1] [  VBZ,   1] 
+   IN : [    $,  59] [   CD,   1] [   DT,   2] [   IN,  38] [   JJ,   3] [   MD, 145] [   NN,  85] [  NNP,  20] [  NNS,  84] [  POS,   1] [   RB,  14] [   TO,   1] [   VB,   7] [  VBD, 317] [  VBG,   4] [  VBN,   5] [  VBP, 109] [  VBZ, 159] [  WRB,   1] 
+   JJ : [    $,   1] [   CD,  40] [   IN,  43] [   JJ,  73] [  JJR,   1] [   MD,   6] [   NN,2689] [  NNP, 111] [ NNPS,   6] [  NNS,1943] [  POS,  46] [   RB,   1] [   TO,   2] [  VBD,  21] [  VBN,   2] [  VBP,  21] [  VBZ,  10] 
+  JJR : [    $,  15] [   IN,  45] [   JJ,   5] [  JJR,   3] [   NN,  88] [  NNS,  91] [  RBR,   1] [   VB,   2] [  VBD,   2] [  VBN,   1] [  VBP,   2] [  VBZ,   1] 
+  JJS : [    $,   2] [   IN,   1] [   JJ,   4] [  JJS,   1] [   MD,   1] [   NN,  57] [  NNP,   1] [ NNPS,   1] [  NNS,  53] [   RB,   1] [  VBD,   3] [  VBN,   1] [  VBP,   5] [  VBZ,   1] 
+   LS : [   MD,   2] [   NN,   5] [   VB,   5] [  VBZ,   1] 
+   MD : [   IN,   2] [   MD,   8] [   NN,   1] [  NNS,   1] [   VB,   1] [  VBD,  43] [  VBN,   1] [  VBP,   7] [  VBZ,  27] 
+   NN : [    $,  12] [   CD,  12] [   IN,  22] [   JJ,  15] [  JJR,  23] [  JJS,   2] [   MD, 276] [   NN,2056] [  NNP, 164] [ NNPS,   3] [  NNS,1338] [  POS, 303] [  PRP,   5] [   RB,  18] [  RBR,   2] [   VB,  60] [  VBD, 885] [  VBG,  16] [  VBN,  16] [  VBP,  46] [  VBZ, 806] [   WP,   1] 
+  NNP : [    $,   4] [   CD,  28] [   DT,   1] [   IN,   1] [   JJ,  21] [  JJS,   1] [   MD,  96] [   NN,1119] [  NNP,3788] [ NNPS, 111] [  NNS, 389] [  POS, 739] [  PRP,   2] [   RB,   1] [   VB,  24] [  VBD, 713] [  VBG,   3] [  VBN,   4] [  VBP,  23] [  VBZ, 392] 
+ NNPS : [   MD,   6] [   NN,  15] [  NNP,  89] [ NNPS,   6] [  NNS,   7] [  POS,  16] [  VBD,  13] [  VBP,   9] [  VBZ,   4] 
+  NNS : [    $,   5] [   CD,  14] [   DT,   9] [   IN,  23] [   JJ,  27] [  JJR,   5] [  JJS,   1] [   MD, 171] [   NN, 288] [  NNP,  13] [ NNPS,   1] [  NNS, 368] [  POS,  59] [  PRP,   8] [   RB,  25] [  RBR,   2] [   VB,  64] [  VBD, 517] [  VBG,  20] [  VBN,  13] [  VBP, 667] [  VBZ,   5] 
+  PDT : [   DT,   4] [   NN,  16] [  NNP,   1] [  NNS,   5] 
+  POS : [    $,   4] [   CD,   4] [   JJ,   3] [  JJS,   2] [   NN, 484] [  NNP,  83] [ NNPS,   5] [  NNS, 210] [  POS,   2] [  VBD,   7] [  VBG,   1] [  VBN,   1] [  VBZ,   1] 
+  PRP : [   CD,   1] [   DT,   2] [   IN,   1] [   JJ,   5] [  JJR,   2] [   MD, 216] [   NN,  10] [  NNP,   6] [  NNS,   4] [  PRP,   1] [   VB,  31] [  VBD, 483] [  VBG,   4] [  VBN,   4] [  VBP, 320] [  VBZ, 380] 
+ PRP$ : [   CD,   2] [   JJ,   3] [  JJS,   1] [   NN, 464] [  NNP,  16] [  NNS, 268] [  POS,   9] [  VBG,   1] [  VBZ,   1] 
+   RB : [    $,  22] [   CD,   8] [   DT,   5] [   IN, 139] [   JJ, 177] [  JJR,  34] [  JJS,   1] [   MD,  42] [   NN, 115] [  NNP,   6] [ NNPS,   1] [  NNS,  64] [  PRP,   1] [   RB,  13] [  RBR,   2] [   TO,   7] [   VB,  40] [  VBD, 251] [  VBG,  46] [  VBN, 121] [  VBP, 140] [  VBZ, 171] [  WRB,   1] 
+  RBR : [    $,   3] [   IN,  14] [   JJ,  39] [   NN,  10] [  NNS,   3] [   RB,  12] [   VB,   1] [  VBD,   5] [  VBG,   1] [  VBN,   2] [  VBZ,   2] 
+  RBS : [   JJ,  21] [   NN,   2] [  NNS,   2] [   RB,   5] [  VBD,   1] [  VBN,   1] [  VBP,   2] 
+   RP : [   CD,   1] [  NNP,   1] 
+  SYM : [  NNP,   1] 
+   TO : [    $,  15] [   CD,  11] [   NN,  15] [  NNS,   2] [   VB,1266] [  VBD,   4] [  VBP,   2] [  VBZ,   1] 
+   UH : [  VBP,   1] 
+   VB : [  JJR,   1] [   MD,   4] [   NN,   3] [  NNP,   1] [  NNS,   3] [   RB,   2] [   VB,  10] [  VBD,   6] [  VBP,   2] [  VBZ,   8] 
+  VBD : [   IN,   2] [   MD,  15] [   NN,   4] [  NNS,   2] [   VB,   2] [  VBD, 152] [  VBN,   1] [  VBP,  17] [  VBZ,  43] 
+  VBG : [    $,   1] [   MD,  15] [   NN, 118] [  NNP,   3] [  NNS,  79] [  POS,   3] [  VBD,  36] [  VBG,   6] [  VBN,   1] [  VBP,   3] [  VBZ,  18] 
+  VBN : [    $,   4] [   CD,   3] [   IN,   2] [   JJ,   7] [   MD,   6] [   NN, 129] [  NNP,   6] [ NNPS,   1] [  NNS,  82] [  POS,   2] [  VBD,  16] [  VBG,   1] [  VBP,   7] [  VBZ,   4] 
+  VBP : [   IN,   3] [   MD,  12] [   NN,   3] [   VB,   2] [  VBD,  43] [  VBN,   1] [  VBP,  41] [  VBZ,  81] 
+  VBZ : [   IN,   2] [   MD,  20] [   VB,   2] [  VBD,  82] [  VBP,  35] [  VBZ, 106] 
+  WDT : [  VBD,   2] [  VBP,   1] [  VBZ,   1] [  WDT,   2] 
+   WP : [   MD,   3] [   NN,   1] [   RB,   1] [  VBD,   3] [  VBN,   1] [  VBP,   1] [  VBZ,  15] [   WP,   6] [  WRB,   1] 
+  WP$ : 
+  WRB : [   IN,   1] [   JJ,   2] [   MD,   2] [   NN,   1] [  NNP,   1] [  NNS,   1] [   RB,   2] [  VBD,  16] [  VBN,   2] [  VBP,  12] [  VBZ,  10] [  WRB,   1] 
+   `` : [   CC,   1] [   IN,   4] [   JJ,   4] [  JJR,   2] [  JJS,   1] [   MD,  28] [   NN,  94] [  NNP,  14] [  NNS,  24] [   RB,   3] [   VB,  11] [  VBD, 120] [  VBG,   3] [  VBN,   7] [  VBP,  51] [  VBZ, 156] 
+
+
+Right Arc Array Nonzero Counts:
+
+    # : [   IN,   2] 
+    $ : [   CD,   3] [   IN, 145] [   JJ,   7] [   NN,   6] [  NNS,   5] [   TO,  42] [   VB,  26] [  VBD,  29] [  VBG,  13] [  VBN,   6] [  VBP,   4] [  VBZ,  11] 
+   '' : [    $,   1] [   CC,   1] [   CD,   1] [   IN,  20] [   JJ,   3] [  JJR,   1] [   MD,  18] [   NN,  54] [  NNP,   9] [  NNS,  20] [   RB,   1] [   TO,   1] [   VB,  15] [  VBD,  93] [  VBG,   4] [  VBN,  14] [  VBP,  52] [  VBZ,  78] 
+    , : [    $,  17] [   CD,  32] [   DT,   3] [   IN,  59] [   JJ,  21] [  JJS,   4] [   MD,  10] [   NN, 474] [  NNP, 428] [ NNPS,  16] [  NNS, 146] [   RB,  20] [   TO,   1] [   VB,  89] [  VBD, 260] [  VBG,  38] [  VBN, 103] [  VBP,  68] [  VBZ, 103] [   WP,   1] [  WP$,   2] [  WRB,   2] 
+-LRB- : [  NNS,   1] [  VBD,   1] 
+-RRB- : [    $,  14] [   CD,  12] [   DT,   2] [   IN,  10] [   JJ,   2] [   LS,   6] [   MD,   2] [   NN,   7] [  NNP,  34] [  NNS,   9] [  POS,   1] [   VB,   1] [  VBD,   4] [  VBG,   2] [  VBN,   7] [  VBP,   2] [  VBZ,   4] 
+    . : [    $,   6] [   CC,   1] [   CD,   9] [   IN,   9] [   JJ,   2] [   LS,   5] [   MD, 293] [   NN,  54] [  NNP,  43] [ NNPS,   2] [  NNS,  24] [   RB,   4] [   VB,  28] [  VBD,1788] [  VBG,   6] [  VBN,  16] [  VBP, 544] [  VBZ,1031] [  WDT,   1] [   WP,   1] 
+    : : [    $,   1] [   CD,   3] [   DT,   2] [   IN,  26] [   JJ,   6] [   LS,   2] [   MD,   4] [   NN,  38] [  NNP,  75] [ NNPS,   5] [  NNS,  12] [   RB,   3] [   TO,   2] [   VB,  15] [  VBD,  23] [  VBG,  10] [  VBN,   5] [  VBP,   5] [  VBZ,  25] [  WDT,   1] [   WP,   1] [  WRB,   1] 
+   CC : [    $,   2] [   CD,   2] [   DT,   3] [   IN,  33] [   JJ,  18] [   MD,   9] [   NN,  21] [  NNP,   3] [  NNS,   1] [   RB,  15] [  RBR,   2] [   TO,   5] [   VB,  91] [  VBD, 123] [  VBG,  42] [  VBN,  46] [  VBP,  35] [  VBZ,  54] [  WP$,   1] [  WRB,   3] 
+   CD : [    $, 878] [   DT,   6] [   IN, 467] [   JJ,  19] [  JJR,   1] [   NN,  26] [  NNP, 177] [  NNS,   3] [   RB,  57] [   TO,  90] [   VB,  21] [  VBD,  80] [  VBG,   9] [  VBN,  20] [  VBP,   5] [  VBZ,  21] 
+   DT : [    $,   3] [   CD,   2] [   DT,   1] [   IN,  64] [   JJ,   5] [   NN,   6] [  NNP,   1] [   RB,   9] [  RBR,   1] [   TO,   3] [   VB,  15] [  VBD,   2] [  VBG,   7] [  VBN,   1] [  VBP,   8] [  VBZ,  10] 
+   EX : 
+   FW : [   IN,   1] [   NN,   1] 
+   IN : [    $,  93] [   CC,   3] [   CD,  61] [   DT,  58] [   IN, 155] [   JJ, 222] [  JJR,  53] [  JJS,  25] [   MD,   4] [   NN,2696] [  NNP, 240] [ NNPS,  13] [  NNS,1115] [  PRP,   3] [   RB, 112] [  RBR,  12] [  RBS,   2] [   TO,   5] [   VB, 773] [  VBD, 959] [  VBG, 399] [  VBN,1140] [  VBP, 249] [  VBZ, 390] [  WDT,   1] [   WP,   1] [  WRB,   4] 
+   JJ : [    $,  14] [   CD,   3] [   DT,   3] [   IN,  63] [   JJ,   7] [  JJR,   2] [  JJS,   1] [   NN,  56] [  NNP,  16] [ NNPS,   1] [  NNS,  57] [   RB,  23] [  RBR,   3] [  RBS,   1] [   TO,   7] [   VB, 104] [  VBD, 116] [  VBG,  21] [  VBN,  53] [  VBP, 100] [  VBZ, 153] [  WDT,   3] [   WP,   1] [  WP$,   2] [  WRB,   6] 
+  JJR : [    $,   4] [   CD,   4] [   IN,  19] [   JJ,   1] [   NN,  16] [  NNS,   5] [   RB,  12] [   TO,   1] [   VB,  16] [  VBD,  23] [  VBG,   8] [  VBN,   3] [  VBP,   5] [  VBZ,   8] 
+  JJS : [   IN,  31] [   JJ,   1] [   MD,   1] [   NN,   1] [   TO,   2] [   VB,   6] [  VBP,   2] [  VBZ,   6] 
+   LS : 
+   MD : [   DT,   3] [   IN, 214] [   JJ,   4] [  JJS,   1] [   MD,   6] [   NN,  18] [  NNS,   8] [   RB,   1] [   VB,  10] [  VBD, 116] [  VBG,  11] [  VBN,   4] [  VBP,  24] [  VBZ,  26] [  WDT,  61] [   WP,  19] [  WP$,   2] [  WRB,  13] 
+   NN : [   CC,   5] [   CD,   6] [   IN,3599] [   JJ,  19] [   MD,   6] [   NN,  24] [  NNP,  26] [  NNS,   8] [   RB,  34] [  RBR,   2] [   TO, 385] [   VB, 808] [  VBD, 738] [  VBG, 402] [  VBN, 227] [  VBP, 169] [  VBZ, 552] [  WDT,   4] [   WP,   1] [  WP$,  10] 
+  NNP : [   CD,   1] [   IN,1371] [   JJ,  15] [   MD,   2] [   NN,   2] [  NNP,  74] [ NNPS,   1] [  NNS,   6] [   RB,   3] [   TO,  85] [   VB,  68] [  VBD, 128] [  VBG,  37] [  VBN,  26] [  VBP,  14] [  VBZ,  63] [  WP$,   1] 
+ NNPS : [   IN,  57] [   TO,   3] [   VB,   3] [  VBD,   1] [  VBG,   3] [  VBN,   2] [  VBZ,   1] 
+  NNS : [   IN,2162] [   JJ,   3] [   MD,   4] [   NN,  15] [  NNP,   1] [  NNS,   5] [   RB,  15] [  RBR,   1] [   TO, 201] [   VB, 469] [  VBD, 207] [  VBG, 254] [  VBN, 112] [  VBP, 133] [  VBZ, 119] [  WDT,   6] [  WP$,   6] [  WRB,   2] 
+  PDT : [   IN,   1] 
+  POS : [   IN,  12] [   JJ,   1] [   TO,   2] [   VB,   1] [  VBZ,   1] 
+  PRP : [   IN,  67] [   JJ,   1] [   MD,   1] [   TO,  12] [   VB,  59] [  VBD,  28] [  VBG,  23] [  VBN,   7] [  VBP,  24] [  VBZ,  24] 
+ PRP$ : [   IN,   1] 
+   RB : [    $,   2] [   CC,   3] [   CD,  14] [   DT,   2] [   IN,  49] [   JJ,  11] [  JJS,   1] [   MD, 159] [   NN,  45] [  NNP,   2] [ NNPS,   2] [  NNS,  25] [  PRP,   1] [   RB, 110] [   TO,   5] [   VB, 117] [  VBD, 254] [  VBG,  55] [  VBN,  93] [  VBP, 184] [  VBZ, 273] [   WP,   2] [  WRB,   1] 
+  RBR : [   IN,   1] [   JJ,   2] [   NN,   3] [   RB,  11] [  RBR,   2] [   TO,   1] [   VB,   8] [  VBD,   9] [  VBG,   2] [  VBN,   1] [  VBP,   2] [  VBZ,   2] 
+  RBS : [  VBZ,   1] 
+   RP : [   JJ,   1] [   NN,   2] [   VB,  64] [  VBD,  51] [  VBG,  30] [  VBN,  34] [  VBP,  16] [  VBZ,  16] 
+  SYM : 
+   TO : [   CD,   1] [   DT,   1] [   IN,  27] [   JJ,  61] [  JJR,   1] [   NN, 122] [  NNS,  39] [   RB,  19] [  RBR,   1] [   TO,   6] [   VB, 105] [  VBD, 219] [  VBG, 108] [  VBN,  93] [  VBP,  24] [  VBZ,  36] 
+   UH : [  VBD,   1] [  VBZ,   1] 
+   VB : [    $,   4] [   CD,   2] [   IN,  48] [   JJ,  74] [  JJR,   3] [   MD, 922] [   NN, 199] [  NNP,   5] [  NNS,  58] [   RB,   6] [   RP,   1] [   TO,   4] [   VB, 262] [  VBD, 244] [  VBG, 114] [  VBN, 198] [  VBP, 145] [  VBZ, 191] [  WDT,   1] [   WP,   1] [  WRB,   3] 
+  VBD : [    $,   1] [   CD,   1] [   DT,   2] [   IN, 325] [   JJ,   4] [   MD,   1] [   NN,  49] [  NNP,   4] [ NNPS,   1] [  NNS,  19] [  PRP,   1] [   VB,  13] [  VBD, 269] [  VBG,   5] [  VBN,  14] [  VBP,  12] [  VBZ,  37] [  WDT, 112] [   WP,  74] [  WP$,   3] [  WRB,  62] 
+  VBG : [    $,   2] [   CD,   2] [   DT,   4] [   IN, 314] [   JJ,  11] [   NN,  82] [  NNP,   3] [  NNS,  77] [  POS,   1] [   RB,   4] [   RP,   1] [   TO,  12] [   VB,  66] [  VBD, 139] [  VBG,  63] [  VBN,  77] [  VBP, 148] [  VBZ, 164] 
+  VBN : [    $,   4] [   CD,   4] [   DT,   6] [   IN,  32] [   JJ,   3] [  JJS,   2] [   MD,   1] [   NN, 136] [  NNP,  36] [ NNPS,   2] [  NNS, 120] [   RB,   4] [  RBR,   1] [  RBS,   1] [   VB, 256] [  VBD, 399] [  VBG,  29] [  VBN, 107] [  VBP, 286] [  VBZ, 411] [  WDT,   1] [  WRB,   6] 
+  VBP : [   CD,   2] [   DT,   2] [   IN, 231] [   JJ,   2] [   MD,   2] [   NN,  25] [  NNP,   1] [  NNS,  12] [  PRP,   1] [   VB,   4] [  VBD,  33] [  VBG,   5] [  VBN,   2] [  VBP,  45] [  VBZ,  28] [  WDT,  85] [   WP,  66] [  WP$,   3] [  WRB,  39] 
+  VBZ : [    $,   2] [   DT,   7] [   IN, 291] [   JJ,   2] [   MD,   2] [   NN,  30] [  NNP,   3] [  NNS,   5] [   VB,   9] [  VBD, 117] [  VBG,   7] [  VBN,   6] [  VBP,  23] [  VBZ,  86] [  WDT, 148] [   WP,  65] [  WP$,   4] [  WRB,  36] 
+  WDT : [    $,   1] [   CD,   4] [   DT,   3] [   IN,  36] [   JJ,   1] [   NN, 193] [  NNP,  55] [ NNPS,   3] [  NNS, 123] [   VB,   6] [  VBD,   4] [  VBG,   1] [  VBN,   5] [  VBP,   2] [  VBZ,   2] 
+   WP : [   CD,   3] [   DT,   9] [   IN,  19] [   JJ,   1] [   NN,  49] [  NNP,  33] [ NNPS,   2] [  NNS,  63] [   VB,   9] [  VBD,   4] [  VBG,   3] [  VBN,   4] [  VBP,   2] [  VBZ,   7] 
+  WP$ : [   CD,   1] [   IN,   1] [   NN,   4] [  NNP,   2] [  NNS,   5] [   VB,   1] 
+  WRB : [   CD,   4] [   IN,  10] [   NN,  14] [  NNP,  17] [  NNS,   9] [   TO,   1] [   VB,  21] [  VBD,  20] [  VBG,   7] [  VBN,   8] [  VBP,   5] [  VBZ,  11] 
+   `` : [   DT,   1] [   IN,  42] [   JJ,   1] [   MD,   5] [   NN,   6] [  NNS,   4] [   TO,   1] [   VB,  20] [  VBD,  29] [  VBG,  12] [  VBN,  10] [  VBP,   7] [  VBZ,  48] [  WDT,   2] [  WRB,   1] 
+
+
+Arc Confusion Array:
+
+    # : 
+    $ : [   CD, 237,   3] [   IN,   1, 145] [   NN, 143,   6] [  NNS,   6,   5] [  VBD,   1,  29] [  VBG,   1,  13] [  VBZ,   3,  11] 
+   '' : [   JJ,   1,   3] [  JJR,   1,   1] [   MD,   2,  18] [   NN,  39,  54] [  NNP,   3,   9] [  NNS,  11,  20] [   RB,   1,   1] [   VB,   4,  15] [  VBD, 113,  93] [  VBG,   1,   4] [  VBP,   4,  52] [  VBZ, 128,  78] 
+    , : [    $,  16,  17] [   CD,  45,  32] [   DT,   9,   3] [   IN,  55,  59] [   JJ,  31,  21] [  JJS,   4,   4] [   MD, 172,  10] [   NN, 607, 474] [  NNP, 420, 428] [ NNPS,   4,  16] [  NNS, 145, 146] [   RB,  24,  20] [   TO,   1,   1] [   VB,  15,  89] [  VBD, 743, 260] [  VBG,   6,  38] [  VBN,   9, 103] [  VBP, 234,  68] [  VBZ, 439, 103] [   WP,   2,   1] [  WRB,   2,   2] 
+-LRB- : [  NNS,   8,   1] [  VBD,   3,   1] 
+-RRB- : [   MD,   1,   2] [   NN,   4,   7] [  NNP,   1,  34] [  POS,   1,   1] 
+    . : [   NN,   1,  54] [  NNP,   4,  43] [  VBZ,   2,1031] 
+    : : [    $,   6,   1] [   CD,  10,   3] [   DT,   3,   2] [   IN,  17,  26] [   JJ,   6,   6] [   MD,  21,   4] [   NN,  65,  38] [  NNP,  31,  75] [  NNS,  53,  12] [   RB,   3,   3] [   VB,   4,  15] [  VBD,  30,  23] [  VBG,   2,  10] [  VBN,   3,   5] [  VBP,  16,   5] [  VBZ,  23,  25] [  WDT,   1,   1] [   WP,   3,   1] 
+   CC : [    $,  22,   2] [   CD,  26,   2] [   DT,   5,   3] [   IN,  24,  33] [   JJ,  61,  18] [   MD,  44,   9] [   NN, 438,  21] [  NNP, 271,   3] [  NNS, 364,   1] [   RB,  14,  15] [  RBR,   1,   2] [   VB,  14,  91] [  VBD, 149, 123] [  VBG,   6,  42] [  VBN,   5,  46] [  VBP, 110,  35] [  VBZ, 143,  54] [  WRB,   3,   3] 
+   CD : [    $,  20, 878] [   DT,   3,   6] [   IN,   6, 467] [   JJ,   2,  19] [   NN, 746,  26] [  NNP,  23, 177] [  NNS, 601,   3] [   RB,   1,  57] [   TO,   1,  90] [   VB,   2,  21] [  VBD,  14,  80] [  VBP,   3,   5] [  VBZ,   5,  21] 
+   DT : [    $,  16,   3] [   CD,  40,   2] [   IN,   5,  64] [   JJ,  53,   5] [   NN,5678,   6] [  NNP, 612,   1] [   RB,   5,   9] [  RBR,   2,   1] [   TO,   1,   3] [  VBD,  21,   2] [  VBG,   9,   7] [  VBN,   3,   1] [  VBP,  14,   8] [  VBZ,  48,  10] 
+   EX : 
+   FW : [   NN,   1,   1] 
+   IN : [    $,  59,  93] [   CD,   1,  61] [   DT,   2,  58] [   IN,  38, 155] [   JJ,   3, 222] [   MD, 145,   4] [   NN,  85,2696] [  NNP,  20, 240] [  NNS,  84,1115] [   RB,  14, 112] [   TO,   1,   5] [   VB,   7, 773] [  VBD, 317, 959] [  VBG,   4, 399] [  VBN,   5,1140] [  VBP, 109, 249] [  VBZ, 159, 390] [  WRB,   1,   4] 
+   JJ : [    $,   1,  14] [   CD,  40,   3] [   IN,  43,  63] [   JJ,  73,   7] [  JJR,   1,   2] [   NN,2689,  56] [  NNP, 111,  16] [ NNPS,   6,   1] [  NNS,1943,  57] [   RB,   1,  23] [   TO,   2,   7] [  VBD,  21, 116] [  VBN,   2,  53] [  VBP,  21, 100] [  VBZ,  10, 153] 
+  JJR : [    $,  15,   4] [   IN,  45,  19] [   JJ,   5,   1] [   NN,  88,  16] [  NNS,  91,   5] [   VB,   2,  16] [  VBD,   2,  23] [  VBN,   1,   3] [  VBP,   2,   5] [  VBZ,   1,   8] 
+  JJS : [   IN,   1,  31] [   JJ,   4,   1] [   MD,   1,   1] [   NN,  57,   1] [  VBP,   5,   2] [  VBZ,   1,   6] 
+   LS : 
+   MD : [   IN,   2, 214] [   MD,   8,   6] [   NN,   1,  18] [  NNS,   1,   8] [   VB,   1,  10] [  VBD,  43, 116] [  VBN,   1,   4] [  VBP,   7,  24] [  VBZ,  27,  26] 
+   NN : [   CD,  12,   6] [   IN,  22,3599] [   JJ,  15,  19] [   MD, 276,   6] [   NN,2056,  24] [  NNP, 164,  26] [  NNS,1338,   8] [   RB,  18,  34] [  RBR,   2,   2] [   VB,  60, 808] [  VBD, 885, 738] [  VBG,  16, 402] [  VBN,  16, 227] [  VBP,  46, 169] [  VBZ, 806, 552] [   WP,   1,   1] 
+  NNP : [   CD,  28,   1] [   IN,   1,1371] [   JJ,  21,  15] [   MD,  96,   2] [   NN,1119,   2] [  NNP,3788,  74] [ NNPS, 111,   1] [  NNS, 389,   6] [   RB,   1,   3] [   VB,  24,  68] [  VBD, 713, 128] [  VBG,   3,  37] [  VBN,   4,  26] [  VBP,  23,  14] [  VBZ, 392,  63] 
+ NNPS : [  VBD,  13,   1] [  VBZ,   4,   1] 
+  NNS : [   IN,  23,2162] [   JJ,  27,   3] [   MD, 171,   4] [   NN, 288,  15] [  NNP,  13,   1] [  NNS, 368,   5] [   RB,  25,  15] [  RBR,   2,   1] [   VB,  64, 469] [  VBD, 517, 207] [  VBG,  20, 254] [  VBN,  13, 112] [  VBP, 667, 133] [  VBZ,   5, 119] 
+  PDT : 
+  POS : [   JJ,   3,   1] [  VBZ,   1,   1] 
+  PRP : [   IN,   1,  67] [   JJ,   5,   1] [   MD, 216,   1] [   VB,  31,  59] [  VBD, 483,  28] [  VBG,   4,  23] [  VBN,   4,   7] [  VBP, 320,  24] [  VBZ, 380,  24] 
+ PRP$ : 
+   RB : [    $,  22,   2] [   CD,   8,  14] [   DT,   5,   2] [   IN, 139,  49] [   JJ, 177,  11] [  JJS,   1,   1] [   MD,  42, 159] [   NN, 115,  45] [  NNP,   6,   2] [ NNPS,   1,   2] [  NNS,  64,  25] [  PRP,   1,   1] [   RB,  13, 110] [   TO,   7,   5] [   VB,  40, 117] [  VBD, 251, 254] [  VBG,  46,  55] [  VBN, 121,  93] [  VBP, 140, 184] [  VBZ, 171, 273] [  WRB,   1,   1] 
+  RBR : [   IN,  14,   1] [   JJ,  39,   2] [   NN,  10,   3] [   RB,  12,  11] [   VB,   1,   8] [  VBD,   5,   9] [  VBG,   1,   2] [  VBN,   2,   1] [  VBZ,   2,   2] 
+  RBS : 
+   RP : 
+  SYM : 
+   TO : [   CD,  11,   1] [   NN,  15, 122] [  NNS,   2,  39] [   VB,1266, 105] [  VBD,   4, 219] [  VBP,   2,  24] [  VBZ,   1,  36] 
+   UH : 
+   VB : [  JJR,   1,   3] [   MD,   4, 922] [   NN,   3, 199] [  NNP,   1,   5] [  NNS,   3,  58] [   RB,   2,   6] [   VB,  10, 262] [  VBD,   6, 244] [  VBP,   2, 145] [  VBZ,   8, 191] 
+  VBD : [   IN,   2, 325] [   MD,  15,   1] [   NN,   4,  49] [  NNS,   2,  19] [   VB,   2,  13] [  VBD, 152, 269] [  VBN,   1,  14] [  VBP,  17,  12] [  VBZ,  43,  37] 
+  VBG : [    $,   1,   2] [   NN, 118,  82] [  NNP,   3,   3] [  NNS,  79,  77] [  POS,   3,   1] [  VBD,  36, 139] [  VBG,   6,  63] [  VBN,   1,  77] [  VBP,   3, 148] [  VBZ,  18, 164] 
+  VBN : [    $,   4,   4] [   CD,   3,   4] [   IN,   2,  32] [   JJ,   7,   3] [   MD,   6,   1] [   NN, 129, 136] [  NNP,   6,  36] [ NNPS,   1,   2] [  NNS,  82, 120] [  VBD,  16, 399] [  VBG,   1,  29] [  VBP,   7, 286] [  VBZ,   4, 411] 
+  VBP : [   IN,   3, 231] [   MD,  12,   2] [   NN,   3,  25] [   VB,   2,   4] [  VBD,  43,  33] [  VBN,   1,   2] [  VBP,  41,  45] [  VBZ,  81,  28] 
+  VBZ : [   IN,   2, 291] [   MD,  20,   2] [   VB,   2,   9] [  VBD,  82, 117] [  VBP,  35,  23] [  VBZ, 106,  86] 
+  WDT : [  VBD,   2,   4] [  VBP,   1,   2] [  VBZ,   1,   2] 
+   WP : [   NN,   1,  49] [  VBD,   3,   4] [  VBN,   1,   4] [  VBP,   1,   2] [  VBZ,  15,   7] 
+  WP$ : 
+  WRB : [   IN,   1,  10] [   NN,   1,  14] [  NNP,   1,  17] [  NNS,   1,   9] [  VBD,  16,  20] [  VBN,   2,   8] [  VBP,  12,   5] [  VBZ,  10,  11] 
+   `` : [   IN,   4,  42] [   JJ,   4,   1] [   MD,  28,   5] [   NN,  94,   6] [  NNS,  24,   4] [   VB,  11,  20] [  VBD, 120,  29] [  VBG,   3,  12] [  VBN,   7,  10] [  VBP,  51,   7] [  VBZ, 156,  48] 
+
+      Number of confusing arcs = 349
+
+
+Input Sentence:
+a/DT hearing/NN is/VBZ scheduled/VBN today/RB on/IN the/DT issue/NN ./. 
+
+
+Parsing Actions and Transitions:
+
+[] [ a/DT, hearing/NN, is/VBZ, scheduled/VBN, today/RB, on/IN, the/DT, issue/NN, ./.] SHIFT
+[ a/DT] [ hearing/NN, is/VBZ, scheduled/VBN, today/RB, on/IN, the/DT, issue/NN, ./.] SHIFT
+[ a/DT, hearing/NN] [ is/VBZ, scheduled/VBN, today/RB, on/IN, the/DT, issue/NN, ./.] Left-Arc: a/DT <-- hearing/NN
+[ hearing/NN] [ is/VBZ, scheduled/VBN, today/RB, on/IN, the/DT, issue/NN, ./.] SHIFT
+[ hearing/NN, is/VBZ] [ scheduled/VBN, today/RB, on/IN, the/DT, issue/NN, ./.] Left-Arc: hearing/NN <-- is/VBZ
+[ is/VBZ] [ scheduled/VBN, today/RB, on/IN, the/DT, issue/NN, ./.] SHIFT
+[ is/VBZ, scheduled/VBN] [ today/RB, on/IN, the/DT, issue/NN, ./.] Right-Arc: is/VBZ --> scheduled/VBN
+[ is/VBZ] [ today/RB, on/IN, the/DT, issue/NN, ./.] SHIFT
+[ is/VBZ, today/RB] [ on/IN, the/DT, issue/NN, ./.] Right-Arc: is/VBZ --> today/RB
+[ is/VBZ] [ on/IN, the/DT, issue/NN, ./.] SHIFT
+[ is/VBZ, on/IN] [ the/DT, issue/NN, ./.] SHIFT
+[ is/VBZ, on/IN, the/DT] [ issue/NN, ./.] SHIFT
+[ is/VBZ, on/IN, the/DT, issue/NN] [ ./.] Left-Arc: the/DT <-- issue/NN
+[ is/VBZ, on/IN, issue/NN] [ ./.] Right-Arc: on/IN --> issue/NN
+[ is/VBZ, on/IN] [ ./.] SHIFT
+[ is/VBZ, on/IN, ./.] [] SWAP
+[ is/VBZ, ./.] [ on/IN] Right-Arc: is/VBZ --> ./.
+[ is/VBZ] [ on/IN] SHIFT
+[ is/VBZ, on/IN] [] Right-Arc: is/VBZ --> on/IN
+[ is/VBZ] [] ROOT --> is/VBZ
+

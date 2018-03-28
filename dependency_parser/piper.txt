@@ -1,0 +1,9 @@
+Peter/NNP
+Piper/NNP
+picked/VBD
+a/DT
+peck/NN
+of/IN
+pickled/JJ
+peppers/NNS
+./.
